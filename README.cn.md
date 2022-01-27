@@ -16,6 +16,16 @@
 
 - 自定义内核的编译方法详见 [compile-kernel](https://github.com/ophub/amlogic-s9xxx-armbian/tree/main/compile-kernel)
 
+```yaml
+- name: Compile the kernel for Amlogic s9xxx
+  uses: ophub/amlogic-s9xxx-armbian@main
+  with:
+    build_target: kernel
+    kernel_version: 5.15.13_5.4.170
+    kernel_auto: true
+    kernel_sign: -meson64-dev
+```
+
 ## 鸣谢
 
 - [flippy/kernel](https://github.com/unifreq)
