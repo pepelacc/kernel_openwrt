@@ -14,7 +14,7 @@ The kernel files can be used in projects such as [amlogic-s9xxx-openwrt](https:/
 
 ## Compile a custom kernel
 
-- For the compilation method of the custom kernel, see [compile-kernel](https://github.com/ophub/amlogic-s9xxx-armbian/tree/main/compile-kernel), The template for kernel compilation using github.com's Actions can be found in [.yml](.github/workflows/compile-kernel.yml).
+- For the compilation method of the custom kernel, see [compile-kernel](https://github.com/ophub/amlogic-s9xxx-armbian/tree/main/compile-kernel), The template for kernel compilation using github.com's Actions can be found in [.yml](https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/.github/workflows/compile-kernel.yml).
 
 ```yaml
 - name: Compile the kernel for Amlogic s9xxx
