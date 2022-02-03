@@ -14,7 +14,7 @@
 
 ## 编译自定义内核
 
-- 自定义内核的编译方法详见 [compile-kernel](https://github.com/ophub/amlogic-s9xxx-armbian/tree/main/compile-kernel)
+- 自定义内核的编译方法详见 [compile-kernel](https://github.com/ophub/amlogic-s9xxx-armbian/tree/main/compile-kernel), 使用 github.com 的 Actions 进行内核编译的模板可参考 [.yml](.github/workflows/compile-kernel.yml)。
 
 ```yaml
 - name: Compile the kernel for Amlogic s9xxx
