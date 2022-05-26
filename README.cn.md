@@ -2,7 +2,7 @@
 
 查看英文说明 | [View English description](README.md)
 
-可用于编译 Armbian 和 OpenWer 系统的内核文件存储库。内核文件名称里有 `flippy` 标志的是 [unifreq](https://github.com/unifreq) 制作的文件，以其他名称命名的是我使用他的内核源码编译的文件。
+可用于编译 Armbian 和 OpenWrt 系统的内核文件存储库。内核文件名称里有 `flippy` 标志的是 [unifreq](https://github.com/unifreq) 制作的文件，以其他名称命名的是我使用他的内核源码编译的文件。
 
 - 在 [pub/stable](pub/stable) 目录下存储的内核文件是稳定版，适合在正式生产环境中使用。
 - 在 [pub/dev](pub/dev) 目录下存储的内核文件是开发版，为一些特定盒子添加了第三方的驱动支持和特殊修改，供开发和测试使用。
