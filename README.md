@@ -2,7 +2,7 @@
 
 View Chinese description  |  [查看中文说明](README.cn.md)
 
-Kernel repository that can be used to compile Armbian and OpenWer system. Kernel files with the `flippy` flag in their names are files made by [unifreq](https://github.com/unifreq), The files named by other names are the files I compiled using his kernel source code.
+Kernel repository that can be used to compile Armbian and OpenWrt system. Kernel files with the `flippy` flag in their names are files made by [unifreq](https://github.com/unifreq), The files named by other names are the files I compiled using his kernel source code.
 
 - The kernel files stored in the [pub/stable](pub/stable) directory is a stable version, suitable for use in a formal production environment.
 - The kernel files stored in the [pub/dev](pub/dev) directory is a development version, and third-party driver support and special modifications have been added for some specific devices, for development and testing use.
