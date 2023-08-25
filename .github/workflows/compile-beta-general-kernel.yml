@@ -83,7 +83,7 @@ on:
           - -beta
           - -yourname
           - \ 
-          - ''
+          - '""'
 
 env:
   TZ: America/New_York
