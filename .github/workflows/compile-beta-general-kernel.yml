@@ -82,6 +82,8 @@ on:
         options:
           - -beta
           - -yourname
+          - \ 
+          - ''
 
 env:
   TZ: America/New_York
